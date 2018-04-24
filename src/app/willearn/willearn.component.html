@@ -1,0 +1,108 @@
+<div class="container coursescnt">
+  <div class="row">
+    <div class="col-md-4 course">
+      <img src="assets/ITMLR.png" alt="ITMLR" class="img-responsive">
+      <div class="courseName">
+        course 1
+      </div>
+    </div>
+    <div class="col-md-4 course">
+      <img src="assets/MLC.png" alt="MLC" class="img-responsive">
+      <div class="courseName">
+        course 2
+      </div>
+    </div>
+    <div class="col-md-4 course">
+      <img src="assets/MLR.png" alt="MLR" class="img-responsive">
+      <div class="courseName">
+        course 3
+      </div>
+    </div>
+  </div>
+  <hr/>
+  
+  <div class="cotainer">
+    <div class="row">
+      <div class="col-md-1">
+        <div class="arrow-cnt">
+          <div class="fa fa-chevron-left fa-lg"></div>
+        </div>
+      </div>
+      <div class="col-md-10">
+          <div class="willearncnt">
+          <div class="title">what will you learn?</div>
+          <div class="coursedetailscnt">
+            <div class="coursename">course 1</div>
+            <div class="coursetitle">{{courseData.courseName}}</div>
+            <div class="sectioncnt" *ngFor="let section of courseData.sections; let last = last">
+              <h5 class="sectionquestion">
+                <b>Section {{section.section_no}}: </b> <span>{{section.sectionName}}</span>
+              </h5>
+              <ul class="list-inline">
+                <li *ngFor="let unit of section.units" class="desc list-inline-item">{{unit.unit_name}}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1">
+        <div class="arrow-cnt">
+            <div class="fa fa-chevron-right fa-lg"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="coursefeatures">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-8">
+          <div class="feature">course features</div>
+          <ul class="list-unstyled row">
+            <li class="col-sm-6">
+              <div class="featurebox">
+                <div class="imgcnt">
+                  <img src="assets/interactive.png" alt="interactive" />
+                </div>
+                <div class="coursetitle">
+                  interactive coding exercises
+                </div>
+              </div>
+            </li>
+            <li class="col-sm-6">
+              <div class="featurebox">
+                <div class="imgcnt">
+                  <img src="assets/downloadable-code.png" alt="downloadable code" />
+                </div>
+                <div class="coursetitle">
+                  downloadable strategy code
+                </div>
+              </div>
+            </li>
+            <li class="col-sm-6">
+              <div class="featurebox">
+                <div class="imgcnt">
+                  <img src="assets/certification.png" alt="certification" />
+                </div>
+                <div class="coursetitle">
+                  certification from quantinsti&reg; &amp; MCX
+                </div>
+              </div>
+            </li>
+            <li class="col-sm-6">
+              <div class="featurebox">
+                <div class="imgcnt">
+                  <img src="assets/infinite.png" alt="infinite" />
+                </div>
+                <div class="coursetitle">
+                  lifetime course access 
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>

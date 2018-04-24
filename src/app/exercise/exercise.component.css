@@ -1,0 +1,30 @@
+
+/* course features */
+.excersisecnt{
+    padding: 79px 0;
+}
+.excersisecnt .feature{
+    color: #606163;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.exercisebox{
+    border-bottom: solid 1px #c6c6c6;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+.exercisebox:lastt-child{border: none;}
+.exercisecnt{
+    height: 400px;
+    background: #c6c6c6;
+    border: solid 5px #777777;
+}
+.exercisetitle{
+    padding: 30px 0 0;
+    text-align: center;
+    font-size: 16px;
+}

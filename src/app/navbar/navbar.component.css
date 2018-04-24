@@ -1,0 +1,27 @@
+.logocontainer{
+    width: 55%;
+    margin: 79px auto;
+    padding: 30px;
+    text-align: center;
+    background: #303030;
+}
+.imgcnt{margin-bottom: 10px;}
+.imgcnt img{
+    max-width: 78px;
+}
+.heading{
+    font-family: sans-serif;
+    color: #85b549;
+}
+.logocontainer p.sepertor{
+    color: #e2f1ee;
+}
+.logocontainer .details{
+    color: #e2f1ee;
+}
+.btn-green{
+    color: #e2f1ee;
+    font-size: 18px;
+    background: #85b549;
+    border-radius: 0;
+}
